@@ -1,7 +1,24 @@
+.hits-list-container {
+    padding: 40px;
+}
+
+.hits-list-header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hits-list-sort-select {
+    border: 1px solid #e5e7eb;
+    padding: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 .hits-list {
     list-style-type: none;
-    padding: 40px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding: 0;
 }
