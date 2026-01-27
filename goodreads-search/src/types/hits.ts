@@ -1,0 +1,21 @@
+export interface Book {
+  bookId: string,
+  title: string,
+  series: string,
+  author: string,
+  rating: number,
+  description: string,
+  language: string,
+  isbn: string,
+  genres: string[],
+  bookFormat: string,
+  pages: number,
+  publisher: string,
+  publishDate: number,
+  awards: string[],
+  numRatings: number,
+  ratingsByStars: number[],
+  likedPercent: number,
+  coverImg: string,
+  objectID: string
+}
