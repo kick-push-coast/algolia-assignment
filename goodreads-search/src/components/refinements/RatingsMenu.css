@@ -21,6 +21,10 @@
     margin-left: 6px;
 }
 
+.refinements-rating-label-selected {
+    font-weight: bold;
+}
+
 .refinements-rating-count {
     font-size: 0.65rem;
     font-weight: 500;

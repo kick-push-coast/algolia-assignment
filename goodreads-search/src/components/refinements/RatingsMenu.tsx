@@ -18,10 +18,11 @@ export function useRatingMenu(props?: UseRatingMenuProps) {
 
 export function RatingMenu(props: UseRatingMenuProps) {
   const { items, refine, createURL } = useRatingMenu(props);
+  console.log(items);
 
   return (
-    <>
-        <h3 className="refinements-rating-header">Ratings</h3>
+    <div>
+        <h3 className="refinements-rating-header">Rating</h3>
         <ul className="refinements-rating-list">
         {items.slice(0,3).map((item) => (
             <li>
@@ -64,12 +65,12 @@ export function RatingMenu(props: UseRatingMenuProps) {
                 ))}
 
 
-                <span className="refinements-rating-label"> &amp; Up</span>
+                <span className={`refinements-rating-label ${item.isRefined ? 'refinements-rating-label-selected' : ''}`}> &amp; Up</span>
                 <span className="refinements-rating-count">{item.count}</span>
             </a>
             </li>
         ))}
         </ul>
-    </>
+    </div>
   );
 }

@@ -1,0 +1,40 @@
+.refinements-genre-header {
+    margin: 0 0 10px 0;
+    font-size: .95rem;
+}
+
+.refinements-genre-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.refinements-genre-item {
+    margin-bottom: 10px;
+}
+
+.refinements-genre-item-selected {
+    font-weight: bold;
+}
+
+.refinements-genre-label {
+    font-size: .85rem;
+    margin-left: 6px;
+}
+
+.refinements-genre-count {
+    font-size: 0.65rem;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    border-radius: 999px;
+    background: #f3f4f6;
+    color: #374151;
+    word-break: break-all;
+    margin-left: 5px;
+}
+
+.refinements-genre-show-more {
+    font-size: .75rem;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
