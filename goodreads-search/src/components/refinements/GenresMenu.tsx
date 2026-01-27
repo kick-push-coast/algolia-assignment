@@ -12,6 +12,7 @@ export default function GenresMenu() {
                 classNames={{
                     list: "refinements-genre-list",
                     item: "refinements-genre-item",
+                    checkbox: "refinements-genre-input",
                     labelText: "refinements-genre-label",
                     count: "refinements-genre-count",
                     showMore: "refinements-genre-show-more",

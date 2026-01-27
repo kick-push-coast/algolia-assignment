@@ -8,6 +8,11 @@
     justify-content: space-between;
 }
 
+.hits-stats {
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
 .hits-list-sort-select {
     border: 1px solid #e5e7eb;
     padding: 6px;
@@ -47,4 +52,17 @@
 
 .hits-pagination-selected a {
     border: 1px solid #4b5563;
+}
+
+.hits-list-filters-button {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .hits-stats {
+        display: none;
+    }
+    .hits-list-filters-button {
+        display: block;
+    }
 }

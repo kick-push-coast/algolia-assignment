@@ -1,12 +1,18 @@
 import { BookHit } from "./BookHit";
 import { Hits, Pagination, SortBy, Stats } from "react-instantsearch";
 import "./HitsList.css";
+import { useMobileFilters } from "../../context/MobileFiltersContext";
 
 export default function HitsList() {
+    const { toggleMobileFilters } = useMobileFilters();
+
     return (
         <div className="hits-list-container">
             <div className="hits-list-header">
-                <Stats />
+                <button className="hits-list-filters-button" onClick={toggleMobileFilters}>
+                    Filters
+                </button>
+                <Stats className="hits-stats" />
                 <SortBy
                     items={[
                         { label: "Sort by relevance", value: "goodreads-popular-clean" },
@@ -23,7 +29,10 @@ export default function HitsList() {
                     list: "hits-list"
                 }}
             />
-            <Pagination 
+            <Pagination
+                padding={1}
+                showFirst={false}
+                showLast={false}
                 classNames={{
                     list: "hits-pagination-list",
                     link: "hits-pagination-link",

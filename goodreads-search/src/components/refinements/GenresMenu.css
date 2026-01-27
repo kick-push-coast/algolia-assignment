@@ -11,15 +11,21 @@
 
 .refinements-genre-item {
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .refinements-genre-item-selected {
     font-weight: bold;
 }
 
+.refinements-genre-input {
+    cursor: pointer;
+}
+
 .refinements-genre-label {
     font-size: .85rem;
     margin-left: 6px;
+    cursor: pointer;
 }
 
 .refinements-genre-count {
@@ -31,6 +37,7 @@
     color: #374151;
     word-break: break-all;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 .refinements-genre-show-more {
