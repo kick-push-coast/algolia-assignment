@@ -3,6 +3,7 @@ import { InstantSearch, RefinementList } from "react-instantsearch";
 import SearchBoxHeader from "./components/header/SearchBoxHeader";
 import HitsList from "./components/hits/HitsList";
 import "./App.css";
+import { RatingMenu } from "./components/refinements/RatingsMenu";
 
 const searchClient = algoliasearch("LLK6VK0IIY", "1601f62f4e3e133f6fbc2b67e744afc9");
 
@@ -25,6 +26,7 @@ export default function App() {
 							showMore: "refinements-genre-show-more"
 						}}
 					/>
+					<RatingMenu attribute="rating" max={5} />
 				</div>
 				<div className="layout-hits">
 					<HitsList />

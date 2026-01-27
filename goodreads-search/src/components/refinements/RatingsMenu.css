@@ -1,0 +1,33 @@
+.refinements-rating-header {
+    margin: 0 0 10px 0;
+    font-size: .95rem;
+}
+
+.refinements-rating-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.refinements-rating-item {
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.refinements-rating-label {
+    font-size: 0.75rem;
+    color: #213547;
+    margin-left: 6px;
+}
+
+.refinements-rating-count {
+    font-size: 0.65rem;
+    font-weight: 500;
+    padding: 0.25rem 0.5rem;
+    border-radius: 999px;
+    background: #f3f4f6;
+    color: #374151;
+    word-break: break-all;
+    margin-left: 5px;
+}
