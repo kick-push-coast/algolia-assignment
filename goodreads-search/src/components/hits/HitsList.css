@@ -22,3 +22,29 @@
     gap: 1rem;
     padding: 0;
 }
+
+.hits-pagination-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: .4rem;
+}
+
+.hits-pagination-link {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    color: #4b5563;
+}
+
+.hits-pagination-link:hover {
+    color: #747bff;
+}
+
+.hits-pagination-selected a {
+    border: 1px solid #4b5563;
+}

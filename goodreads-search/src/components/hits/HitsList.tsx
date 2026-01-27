@@ -1,5 +1,5 @@
 import { BookHit } from "./BookHit";
-import { Hits, SortBy, Stats } from "react-instantsearch";
+import { Hits, Pagination, SortBy, Stats } from "react-instantsearch";
 import "./HitsList.css";
 
 export default function HitsList() {
@@ -21,6 +21,13 @@ export default function HitsList() {
                 hitComponent={BookHit} 
                 classNames={{
                     list: "hits-list"
+                }}
+            />
+            <Pagination 
+                classNames={{
+                    list: "hits-pagination-list",
+                    link: "hits-pagination-link",
+                    selectedItem: "hits-pagination-selected"
                 }}
             />
         </div>
