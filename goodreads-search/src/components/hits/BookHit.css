@@ -72,11 +72,11 @@
 }
 
 .result-description {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
+    font-weight: normal;
     line-height: 1.5;
-    color: #374151;
+    color: #212630;
     margin: 0.5rem 0 0.75rem;
-
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
