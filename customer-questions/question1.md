@@ -18,7 +18,7 @@ Welcome! These are really foundational concepts for search, so great questions t
 
 __Records__  
 
-You can think of a record as a blob of data that represents one thing that a user might want to search for like a product, a web page, or an article. The record has a set of "attributes" that contain descriptive information about that thing. For example, a record for a product might have attributes for the product's _name_, _description_, _price_, and _rating_. Each record also must contain an _objectId_ attribute which is just a unique identifier for the record that either you can set yourself or Algolia will set automatically when you create the record.
+You can think of a record as a block of data that represents one thing that a user might want to search for like a product, a web page, or an article. The record has a set of "attributes" that contain descriptive information about that thing. For example, a record for a product might have attributes for the product's _name_, _description_, _price_, and _rating_. Each record also must contain an _objectId_ attribute which is just a unique identifier for the record that either you can set yourself or Algolia will set automatically when you create the record.
 
 Records get stored as JSON objects, so taking our product example above, you might see a record represented like this:
 ```
