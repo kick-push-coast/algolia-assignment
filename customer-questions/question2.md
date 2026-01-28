@@ -10,7 +10,7 @@ Regards, Matt
 
 Hi Matt,
 
-Thank you for the honest feedback. I'm (sadly) very familiar with being on the receiving end of a product change that makes my workflow more difficult... so I don't take this topic lightly! Our product team doesn't take it lightly either. They are always looking for insight into how their changes affect real day-to-day users, so I'm happy to pass your feedback along to them.
+Thank you for the honest feedback. I'm (sadly) very familiar with being on the receiving end of a product change that makes my workflow more difficult... so I don't take this topic lightly. Our product team doesn't take it lightly either. They are always looking for insight into how their changes affect real day-to-day users, so I'm happy to pass your feedback along to them.
 
 In the meantime, maybe there is a way to make the change a little less painful in the short term. You're absolutely right that it now takes more clicks to clear or delete an index from the dashboard. A couple of things that we've seen work well for others that might be helpful in this regard:
 
