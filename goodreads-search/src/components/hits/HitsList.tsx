@@ -1,20 +1,28 @@
 import { BookHit } from "./BookHit";
 import { Hits, Pagination, SortBy, Stats } from "react-instantsearch";
-import "./HitsList.css";
 import { useMobileFilters } from "../../context/MobileFiltersContext";
 import FilterIcon from "../../icons/FiltersIcon";
+import "./HitsList.css";
 
 export default function HitsList() {
-    const { toggleMobileFilters } = useMobileFilters();
+    const { isMobileFiltersOpen, toggleMobileFilters } = useMobileFilters();
 
     return (
-        <div className="hits-list-container">
+        <main className="hits-list-container">
             <div className="hits-list-header">
-                <button className="hits-list-filters-button" onClick={toggleMobileFilters}>
+                <button  
+                    aria-expanded={isMobileFiltersOpen}
+                    aria-controls="filters"
+                    className="hits-list-filters-button" 
+                    onClick={toggleMobileFilters}
+                >
                     Filters
                     <FilterIcon size={17} color="#595959" />
                 </button>
-                <Stats className="hits-stats" />
+                <Stats
+                    aria-live="polite" 
+                    className="hits-stats"
+                />
                 <SortBy
                     items={[
                         { label: "Sort by relevance", value: "goodreads-popular-clean" },
@@ -26,6 +34,7 @@ export default function HitsList() {
                 />
             </div>
             <Hits
+                aria-live="polite" 
                 hitComponent={BookHit} 
                 classNames={{
                     list: "hits-list"
@@ -39,6 +48,6 @@ export default function HitsList() {
                     selectedItem: "hits-pagination-selected"
                 }}
             />
-        </div>
+        </main>
     )
 }

@@ -27,7 +27,7 @@ export function RatingMenu(props: UseRatingMenuProps) {
             <li>
             <a
                 className="refinements-rating-item"
-                aria-label={`${item.value} &amp; up`}
+                aria-label={`${item.value} & up. ${item.count} results.`}
                 href={createURL(item.value)}
                 onClick={(event) => {
                 event.preventDefault();
@@ -63,8 +63,8 @@ export function RatingMenu(props: UseRatingMenuProps) {
                 </svg>
                 ))}
 
-
-                <span className={`refinements-rating-label ${item.isRefined ? 'refinements-rating-label-selected' : ''}`}> &amp; Up</span>
+                <span className="sr-only">{item.value}</span>
+                <span className={`refinements-rating-label ${item.isRefined ? 'refinements-rating-label-selected' : ''}`}> &amp; Up &nbsp;</span>
                 <span className="refinements-rating-count">{item.count}</span>
             </a>
             </li>

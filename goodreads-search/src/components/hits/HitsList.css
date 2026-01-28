@@ -1,5 +1,6 @@
 .hits-list-container {
     padding: 0 40px;
+    flex-grow: 1;
 }
 
 .hits-list-header {
