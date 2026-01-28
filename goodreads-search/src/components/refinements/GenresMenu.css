@@ -50,4 +50,7 @@
     .refinements-genre-show-more {
         height: 40px;
     }
+    .refinements-genre-item {
+        padding: 4px 0;
+    }
 }

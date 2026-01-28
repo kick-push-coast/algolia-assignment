@@ -36,3 +36,9 @@
     word-break: break-all;
     margin-left: 5px;
 }
+
+@media(max-width: 1000px) {
+    .refinements-rating-item {
+        padding: 4px 0;
+    }
+}
