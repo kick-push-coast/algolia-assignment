@@ -22,6 +22,8 @@ csv()
       // Only keep rows with numRatings > 15000
       .filter(row => row.numRatings > 15000)
       .map(row => {
+        
+        // Convert columns to specific data types
         ARRAY_FIELDS.forEach(field => {
           if (row[field]) {
             row[field] = row[field]
@@ -33,7 +35,11 @@ csv()
           }
         });
 
-        // Convert columns to specific data types
+        // Add new columns for Goodreads award
+        row.goodreadsAwardRecognition = row.awards.some(award =>
+          award.toLowerCase().includes("goodreads")
+        );
+
         NUM_FIELDS.forEach(field => {
           if (row[field] !== undefined) {
             row[field] = Number(row[field]);

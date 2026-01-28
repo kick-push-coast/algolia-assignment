@@ -25,8 +25,8 @@ export default function HitsList() {
                 />
                 <SortBy
                     items={[
-                        { label: "Sort by relevance", value: "goodreads-popular-clean" },
-                        { label: "Sort by rating", value: "goodreads-popular-clean_rating_desc" }
+                        { label: "Sort by relevance", value: "goodreads-popular" },
+                        { label: "Sort by rating", value: "goodreads-popular_rating_desc" }
                     ]}
                     classNames={{
                         select: "hits-list-sort-select"

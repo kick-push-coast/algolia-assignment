@@ -9,7 +9,7 @@ const searchClient = algoliasearch("LLK6VK0IIY", "1601f62f4e3e133f6fbc2b67e744af
 
 export default function App() {
 	return (
-		<InstantSearch searchClient={searchClient} indexName="goodreads-popular-clean">
+		<InstantSearch searchClient={searchClient} indexName="goodreads-popular">
 			<MobileFiltersProvider>
 				<SearchBoxHeader />
 				<SearchContents />
