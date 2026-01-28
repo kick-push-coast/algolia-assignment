@@ -1,4 +1,4 @@
-import SearchBoxInput from "./SearchBoxInput";
+import SearchBoxInput from "../inputs/SearchBoxInput";
 import "./SearchBoxHeader.css";
 
 export default function SearchBoxHeader() {
