@@ -13,6 +13,8 @@ This includes the original CSV from a [Goodreads book data set](https://www.kagg
 - Converts data type of number, date, and array columns
 - Adds a new "goodreadsAwardRecognition" attribute for books that have won or been nominated for a Goodreads award
 
+__Customer responses__: [/customer-questions/](https://github.com/kick-push-coast/algolia-assignment/tree/main/customer-questions)
+
 ## Methodology
 
 The search UI was built based on theoretical requirements that might come out of discovery:
