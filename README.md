@@ -8,9 +8,10 @@ __Source code__: [/goodreads-search/](https://github.com/kick-push-coast/algolia
 
 __Data set files__: [/dataset/](https://github.com/kick-push-coast/algolia-assignment/tree/main/dataset)
 
-This includes the original CSV from a [Goodreads book data set](https://www.kaggle.com/datasets/pooriamst/best-books-ever-dataset?resource=download) and the conversion script used to clean the data and convert it JSON to get it ready for indexing. The script does a couple basic things:
+This includes the original CSV from a [Goodreads book data set](https://www.kaggle.com/datasets/pooriamst/best-books-ever-dataset?resource=download) and the conversion script used to clean the data and convert it JSON to get it ready for indexing. The script does a few basic things:
 - Takes only books with > 15,000 ratings to trim index to the most-read books
 - Converts data type of number, date, and array columns
+- Adds a new "goodreadsAwardRecognition" attribute for books that have won or been nominated for a Goodreads award
 
 ## Methodology
 
