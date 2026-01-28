@@ -37,7 +37,7 @@
 
 .layout-refinements-mobile-close-btn {
     display: none;
-    height: 40px;
+    min-height: 40px;
     align-items: center;
     justify-content: center;
     margin-top: 40px;

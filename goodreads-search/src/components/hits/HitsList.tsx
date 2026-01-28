@@ -33,8 +33,6 @@ export default function HitsList() {
             />
             <Pagination
                 padding={1}
-                showFirst={false}
-                showLast={false}
                 classNames={{
                     list: "hits-pagination-list",
                     link: "hits-pagination-link",

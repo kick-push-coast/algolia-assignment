@@ -45,3 +45,10 @@
 .search-box-reset-btn:not([hidden]) {
     display: flex;
 }
+
+
+@media (max-width: 700px) {
+    .search-box-form, .search-box-root {
+        width: 100%;
+    }
+}

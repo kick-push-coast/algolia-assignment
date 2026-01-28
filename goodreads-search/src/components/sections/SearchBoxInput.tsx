@@ -5,6 +5,7 @@ export default function SearchBoxInput() {
     return (
         <SearchBox
             classNames={{
+                root: "search-box-root",
                 form: "search-box-form",
                 input: "search-box-input",
                 submit: "search-box-submit-btn",
