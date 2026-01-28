@@ -18,7 +18,6 @@ export function useRatingMenu(props?: UseRatingMenuProps) {
 
 export function RatingMenu(props: UseRatingMenuProps) {
   const { items, refine, createURL } = useRatingMenu(props);
-  console.log(items);
 
   return (
     <div>

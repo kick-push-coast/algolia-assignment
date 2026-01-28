@@ -2,6 +2,7 @@ import { BookHit } from "./BookHit";
 import { Hits, Pagination, SortBy, Stats } from "react-instantsearch";
 import "./HitsList.css";
 import { useMobileFilters } from "../../context/MobileFiltersContext";
+import FilterIcon from "../../icons/FiltersIcon";
 
 export default function HitsList() {
     const { toggleMobileFilters } = useMobileFilters();
@@ -10,7 +11,8 @@ export default function HitsList() {
         <div className="hits-list-container">
             <div className="hits-list-header">
                 <button className="hits-list-filters-button" onClick={toggleMobileFilters}>
-                    Filters
+                    Filter
+                    <FilterIcon size={17} color="#595959" />
                 </button>
                 <Stats className="hits-stats" />
                 <SortBy

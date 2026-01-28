@@ -3,6 +3,7 @@ import { InstantSearch } from "react-instantsearch";
 import { MobileFiltersProvider } from "./context/MobileFiltersContext";
 import SearchBoxHeader from "./components/sections/SearchBoxHeader";
 import SearchContents from "./components/sections/SearchContents";
+import "./App.css";
 
 const searchClient = algoliasearch("LLK6VK0IIY", "1601f62f4e3e133f6fbc2b67e744afc9");
 
