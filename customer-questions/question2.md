@@ -19,5 +19,5 @@ In the meantime, maybe there is a way to make the change a little less painful i
 
 If you're interested in setting up a test index workflow or curious about how our APIs can be used to automate index management, let me know and I can get into more detail about these topics! Again, we appreciate your feedback and I will be submitting that for the product team to take a look at shortly.
 
-Cheers,
+Cheers,  
 Mike
