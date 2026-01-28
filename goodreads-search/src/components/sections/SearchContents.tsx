@@ -10,11 +10,16 @@ export default function SearchContents() {
     return (
         <div className="layout-container">
             <div className={`layout-refinements ${isMobileFiltersOpen ? 'layout-refinements-mobile-open' : ''}`}>
+                <h2 className="layout-refinements-header">
+                    Filters
+                </h2>
+                <div className="layout-menus">
+                    <GenresMenu />
+                    <RatingMenu attribute="rating" max={5} />
+                </div>
                 <button className="layout-refinements-mobile-close-btn" onClick={toggleMobileFilters}>
-                    X
+                    Apply & Close
                 </button>
-                <GenresMenu />
-                <RatingMenu attribute="rating" max={5} />
             </div>
             <div className="layout-hits">
                 <HitsList />

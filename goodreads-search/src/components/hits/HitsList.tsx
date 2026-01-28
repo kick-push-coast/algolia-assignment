@@ -11,7 +11,7 @@ export default function HitsList() {
         <div className="hits-list-container">
             <div className="hits-list-header">
                 <button className="hits-list-filters-button" onClick={toggleMobileFilters}>
-                    Filter
+                    Filters
                     <FilterIcon size={17} color="#595959" />
                 </button>
                 <Stats className="hits-stats" />

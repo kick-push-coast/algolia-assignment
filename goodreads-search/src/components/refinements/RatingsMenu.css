@@ -10,7 +10,7 @@
 }
 
 .refinements-rating-item {
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     display: flex;
     align-items: center;
 }
@@ -19,6 +19,7 @@
     font-size: 0.75rem;
     color: #213547;
     margin-left: 6px;
+    font-weight: 400;
 }
 
 .refinements-rating-label-selected {

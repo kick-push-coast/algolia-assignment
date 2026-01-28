@@ -10,7 +10,7 @@
 }
 
 .refinements-genre-item {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     cursor: pointer;
 }
 
@@ -44,4 +44,10 @@
     font-size: .75rem;
     margin-top: 10px;
     padding: 5px 10px;
+}
+
+@media(max-width: 1000px) {
+    .refinements-genre-show-more {
+        height: 40px;
+    }
 }
