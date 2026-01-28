@@ -1,7 +1,7 @@
 import GenresMenu from "../refinements/GenresMenu";
 import { RatingMenu } from "../refinements/RatingsMenu";
 import { useMobileFilters } from "../../context/MobileFiltersContext";
-import { useMediaQuery } from "../../hooks/use-media-query";
+import { useMediaQuery } from "../../hooks/useMediaQuery";
 import "./RefinementsList.css";
 
 export default function RefinementsList() {
